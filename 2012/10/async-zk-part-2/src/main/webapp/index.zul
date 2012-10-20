@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<window xmlns="http://www.zkoss.org/2005/zul" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd" border="normal" apply="sample.SampleComposer">
+	<caption label="ZK async example with ExecutorService" />
+
+	<vlayout>
+		<label value="Input string: " />
+		<textbox id="input" />
+		<label value="Status: " />
+		<label id="status" />
+
+		<button id="execute" label="Start task" />
+
+		<button id="dummy" label="Dummy button" />
+	</vlayout>
+</window>
