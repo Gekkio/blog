@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<window xmlns="http://www.zkoss.org/2005/zul" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd" border="normal" apply="sample.SampleComposer">
+
+	<style>		
+		.gritter-red .gritter-top {
+			background-image: url(gritter-red.png);
+		}
+		.gritter-red .gritter-item {
+			background-image: url(gritter-red.png);
+		}
+		.gritter-red .gritter-bottom {
+			background-image: url(gritter-red.png);
+		}
+	</style>
+	
+	<caption label="ZK Gritter demo" />
+	<button label="Regular" id="regular" />
+	<button label="Sticky" id="sticky" />
+	<button label="Custom 48x48px image" id="image" />
+	<button label="Custom timeout" id="timeout" />
+	<button label="Custom CSS class" id="sclass" />
+	<button label="Clear notifications" id="clear" />
+</window>
